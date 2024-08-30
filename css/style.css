@@ -1,0 +1,43 @@
+
+/* Style for the card container */
+.fitsumwrapper1 {
+    width: 300px; /* Adjust the size as needed */
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    background-color: #fff; /* Optional: card background */
+}
+
+/* Style for the image inside the card */
+.fitsumwrapper1 img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+/* Hover effect on the card */
+.fitsumwrapper1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+/* Image color transition on card hover */
+.fitsumwrapper1:hover img {
+    filter: grayscale(0%);
+}
+.align-left {
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+.align-left p {
+    margin: 10px 10px 10px 10px;
+}
+.btn-primary, .btn-primary:active {
+    background-color: #ea3546 !important;
+    border-color: #ea3546 !important;
+    color: #ffffff !important;
+    box-shadow: none;
+    margin-left: 25%;
+}
