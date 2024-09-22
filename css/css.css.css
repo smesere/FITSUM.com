@@ -1,6 +1,9 @@
 
 /* Style for the card container */
 .fitsumwrapper1 {
+    width: 300px; /* Adjust the size as needed */
+    padding-left: 0px;
+    padding-right: 0px;
     border-radius: 35px;
     transition: box-shadow 3s  linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%),
      transform 1.5s ease,
@@ -8,10 +11,13 @@
     transform 1.5s  ease,transform 1.5s ease,
      margin 3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
     overflow: hidden;
+    background-color: #fff; /* Optional: card background */
 }
 
 /* Style for the image inside the card */
 .fitsumwrapper1 img {
+    border-radius: 35px;
+    width: 100%;
     filter: grayscale(100%);
     transition: filter 2s  ease-in-out}
 
@@ -19,18 +25,26 @@
 .fitsumwrapper1:hover {
     box-shadow: 0 0px 100px rgb(0, 255, 200);
     transform: translateY(-5px);
+    margin: 0.0001px;
 }
 
 /* Image color transition on card hover */
 .fitsumwrapper1:hover img {
     filter: grayscale(0%);
 }
-
+.align-left {
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+.align-left p {
+    margin: 10px 10px 10px 10px;
+}
 .btn-primary, .btn-primary:active {
     background-color: #ff0000 !important;
     border-color: #ff0000 !important;
     color: #ffffff !important;
     box-shadow: 0px 0px 21px red;
+    margin-left: 25%;
     transition: 1.8s;
 }
 #fitsumSendItbutton {
@@ -46,6 +60,11 @@
     transition: 2s  linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 1.5s  linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
     ;}
 
+#fitsumiconf1{     }
+#fitsumiconx1{     }
+#fitsumiconu1{     }
+#fitsumicong1{     }
+#fitsumicont1{     }
 #fitsumicony1{    color: red; }
 #fitsumiconf1:hover, #fitsumiconx1:hover, #fitsumiconu1:hover, #fitsumicony1:hover, #fitsumicong1:hover, #fitsumicont1:hover {    color: #ffffff;    transition: 1s !important;}
 #fitsumiconf1:hover{    background: linear-gradient(to top,#ffffff ,#837aff,#1100ff,#0a008f,#110f2b ,#000000);}
@@ -56,6 +75,11 @@
 #fitsumicony1:hover{    background: linear-gradient(to top,#ffffff ,#ff7a7a,red,#8f0000 ,#000000);}
 #fitsumiconf1, #fitsumiconx1, #fitsumiconu1, #fitsumicong, #fitsumicont ,#fitsumicony {    transition: 1s !important;}
 
+#fitsumiconf{     }
+#fitsumiconx{     }
+#fitsumiconu{     }
+#fitsumicong{     }
+#fitsumicont{     }
 #fitsumicony{    color: red; }
 #fitsumiconf:hover, #fitsumiconx:hover, #fitsumiconu:hover, #fitsumicony:hover, #fitsumicong:hover, #fitsumicont:hover {    color: #ffffff;    transition: 1s !important;}
 #fitsumiconf:hover{    background: linear-gradient(to top,#ffffff ,#837aff,#1100ff,#0a008f,#110f2b ,#000000);}
@@ -64,7 +88,6 @@
 #fitsumicong:hover{    background: linear-gradient(to top,#ffffff ,#e7c4c4, #3b3b3b ,#000000);}
 #fitsumicont:hover{    background: linear-gradient(to top,#ffffff ,#837aff,blue,#0a008f,#110f2b ,#000000);}
 #fitsumicony:hover{    background: linear-gradient(to top,#ffffff ,#ff7a7a,red,#8f0000 ,#000000);}
-
 #fitsumThisdesignerturnedmyideas{    
     background-color: #fefae7;
     box-shadow: 0 0px 0px  rgba(128, 255, 0, 0.13);
@@ -76,10 +99,11 @@
     box-shadow: 0 0px 0px rgba(179, 0, 255, 0.24), inset 300px 300px 300px khaki;
     transition: box-shadow 1.5s  linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 1.5s  linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%), transform 1.5s ease, margin 3s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%);
 }
-
 #fitsumThisdesignerturnedmyideas:hover{    box-shadow: 0 0px 300px rgb(0, 255, 200);   margin: 12px;}
-#fitsumThisdesignerturnedmyideas1:hover{    margin: 24px;   box-shadow: 0 0px 40px rgba(42, 2, 187, 0.999);}.fitsumbhoverlater:hover{color: #ff6f00;font-size: 70px;background-color: rgba(255, 111, 0, 0.082);    box-shadow: 0 0px 100px rgb(0, 255, 200);    border-radius: 10px;}
-.fitsumwrapper1 h5,.fitsumwrapper1 p{
-    margin-left: 3px;
-    text-align: center;
-}
+#fitsumThisdesignerturnedmyideas1:hover{    margin: 24px;   box-shadow: 0 0px 40px rgba(42, 2, 187, 0.999);}
+#fitsuminput:hover, #name-contact-form-2-umzLJpQ3YT:hover{  box-shadow: 0 0px 100px rgb(0, 255, 200);}
+.fitsumexplainmoreprimeryspan a{    margin-left: 20px;  border-radius: 50px;}
+
+.fitsumexplainmoreprimery{display: flex;    align-items: center;   flex-direction: row;}
+.fitsumboldlargmaganen{font-size: xx-large;    margin-top: 2px;    margin-right: -2px;    margin-bottom: -2px;    margin-left: 2px;   color: rgb(255, 60, 0);}
+.fitsumbhoverlater:hover{color: #ff6f00;font-size: 70px;background-color: rgba(255, 111, 0, 0.082);    box-shadow: 0 0px 100px rgb(0, 255, 200);    border-radius: 10px;}

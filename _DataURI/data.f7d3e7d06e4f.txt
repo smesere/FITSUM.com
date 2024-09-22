@@ -1,0 +1,1 @@
+chrome-extension://gmfaoihlkhopieoibopcponemocgbloj/fonts/Inter_Display/InterDisplay-Regular.woff2
